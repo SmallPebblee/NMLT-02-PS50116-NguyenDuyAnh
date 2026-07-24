@@ -26,7 +26,7 @@ int main() {
         diemTB[i] = (toan * 3 + ly * 2 + hoa) / 6;
     }
 
-    printf("\n===== DANH SACH DIEM TRUNG BINH =====\n");
+    printf("===== DANH SACH DIEM TRUNG BINH =====\n");
     for (int i = 0; i < n; i++) {
         printf("Hoc sinh %s co diem trung binh: %.1f\n", name[i], diemTB[i]);
     }
