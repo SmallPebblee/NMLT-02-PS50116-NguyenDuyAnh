@@ -20,12 +20,12 @@ int main()
         printf("| 10. tinh toan phan so                      |\n");
         printf("+-------------------------------+\n");
         printf("Ban hay chon chuc nang (0 - 10): ");
-        scanf("%d", &chon); // chon :2
+        scanf("%d", &chon); // chon ??
         switch (chon)
         {
         case 0:
             printf("Ban da chon chuc nang: 0. Thoat chuong trinh.\n");
-            // thêm các lệnh
+            // them lenh
             break;
         case 1:
             printf("Ban da chon chuc nang: 1. kiem tra so nguyen.\n");

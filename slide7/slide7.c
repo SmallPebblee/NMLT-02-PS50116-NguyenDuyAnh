@@ -5,16 +5,17 @@ int main()
     char hoTen[20]; //= {'a', 'b', 'c'};
     char ngheNghiep[20];
     printf("nhap ho ten: ");
-    scanf("%s", hoTen);
-    printf("nhap nghe nghiep: ");
-    scanf("%s", ngheNghiep);
+    gets(hoTen);
 
-    for (int i = 0; i < 20; i++)
+    printf("nhap nghe nghiep: ");
+    gets(ngheNghiep);
+
+    for (int i = 0; i < strlen(hoTen); i++)
     {
         printf("kt: %c\n", hoTen[i]);
     }
-    printf ("\n");
-    for (int i = 0; i < 20; i++)
+    printf("\n");
+    for (int i = 0; i < strlen(ngheNghiep); i++)
     {
         printf("kt: %c\n", ngheNghiep[i]);
     }
