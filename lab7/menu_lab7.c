@@ -27,3 +27,16 @@ int main() {
 
     return 0;
 }
+
+void chucnang1(){
+    printf ("Chuc nang 1: Dem Nguyen am va Phu am trong chuoi\n");
+}
+
+void chucnang2(){
+    printf ("Chuc nang 2: Dang nhap he thong (User & Password)\n");
+char userSys[] = "admin"; char passSys[] = "123456";
+    char user[20], password[20];
+    printf("User: "); fgets(user,sizeof(user),stdin);
+    printf("Password: "); fgets(password,sizeof(password),stdin);
+    printf("%d\n",strcmp(userSys,user));
+}

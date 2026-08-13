@@ -1,25 +1,25 @@
 #include <stdio.h>
 int main()
 {
-//     int n = 5;
-//     int A[n];
+    int n = 5;
+    int A[n];
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         printf("nhap A[%d] = ", i);
-//         scanf("%d", &A[i]);
-//     }
+    for (int i = 0; i < n; i++)
+    {
+        printf("nhap A[%d] = ", i);
+        scanf("%d", &A[i]);
+    }
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         if (A[i] % 2 != 0)
-//             A[i]++;
-//     }
+    for (int i = 0; i < n; i++)
+    {
+        if (A[i] % 2 != 0)
+            A[i]++;
+    }
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         printf("PT[%d] = %d\n", i + 1, A[i]);
-//     }
+    for (int i = 0; i < n; i++)
+    {
+        printf("PT[%d] = %d\n", i + 1, A[i]);
+    }
 
     int d = 3;
     int c = 4;
